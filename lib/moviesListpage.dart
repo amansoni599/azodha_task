@@ -42,15 +42,7 @@ class MovieListPage extends StatelessWidget {
                 Expanded(
                   child: ListView(
                     children: [
-                      InkWell(
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) =>
-                                        const CompleteWidget()));
-                          },
-                          child: const SingleWidget()),
+                      const SingleWidget(),
                       const SingleWidget(),
                       const SingleWidget(),
                       const SingleWidget(),
